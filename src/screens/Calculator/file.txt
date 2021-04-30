@@ -1,0 +1,76 @@
+// const handleClick = (type, value) => {
+  //   switch ((type, value)) {
+  //     case "number": {
+  //       setCurrVal(`${currVal}${value}`);
+  //       break;
+  //     }
+  //     case "operator": {
+  //       setOperator(value);
+  //       setPrevVal(currVal);
+  //       setCurrVal("0");
+  //     }
+  //     case "clear": {
+  //       setCurrVal("0");
+  //       setOperator(null);
+  //       setPrevVal(null);
+  //     }
+  //     case "posneg": {
+  //       setCurrVal(`${parseFloat(currVal) * -1}`);
+  //     }
+  //     case "percentage": {
+  //       setCurrVal(`${parseFloat(currVal) * 0.01}`);
+  //     }
+  //     case "equal": {
+  //       const current = parseFloat(currVal);
+  //       const previous = parseFloat(prevVal);
+
+  //       if (operator === "+") {
+  //         setCurrVal(previous + current);
+  //         setOperator(null);
+  //         setPrevVal(null);
+  //       }
+
+  //       if (operator === "/") {
+  //         setCurrVal(previous / current);
+  //         setOperator(null);
+  //         setPrevVal(null);
+  //       }
+
+  //       if (operator === "-") {
+  //         setCurrVal(previous - current);
+  //         setOperator(null);
+  //         setPrevVal(null);
+  //       }
+
+  //       if (operator === "*") {
+  //         setCurrVal(previous * current);
+  //         setOperator(null);
+  //         setPrevVal(null);
+  //       }
+
+  //       // switch (operator) {
+  //       //   case "+": {
+  //       //     setCurrVal(previous + current);
+  //       //     setOperator(null);
+  //       //     setPrevVal(null);
+  //       //   }
+
+  //       //   case "-": {
+  //       //     setCurrVal(previous - current);
+  //       //     setOperator(null);
+  //       //     setPrevVal(null);
+  //       //   }
+  //       //   case "/": {
+  //       //     setCurrVal(previous / current);
+  //       //     setOperator(null);
+  //       //     setPrevVal(null);
+  //       //   }
+  //       //   case "*": {
+  //       //     setCurrVal(previous * current);
+  //       //     setOperator(null);
+  //       //     setPrevVal(null);
+  //       //   }
+  //       // }
+  //     }
+  //   }
+  // };
